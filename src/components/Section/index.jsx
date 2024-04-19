@@ -1,15 +1,28 @@
 import React from "react";
 import './style.css'
-import  Google from './images/pngimg.com - google_PNG19637.png'
-import search from './images/svgexport-3.png'
-import lense from './images/lense.png'
-import mic from './images/mic.png'
-import { BsYoutube } from "react-icons/bs";
+
+
 
 function Section() {
   return (
-    <div className="section">
-        <img src={Google} alt="" />
+    <div className="body">
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* <img src={Google} alt="" />
         <div className="parent_input">
            <a className="search" href="#search"><img src={search} alt="" /></a>
            <input type="text" />
@@ -34,7 +47,7 @@ function Section() {
         </div>
 
         </div>
-       
+        */}
 
     </div>
   ) 
