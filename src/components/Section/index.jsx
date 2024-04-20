@@ -1,15 +1,17 @@
 import React from "react";
 import './style.css'
+import Card from "./card";
 
 
 
 function Section() {
   return (
     <div className="body">
-     
 
+    <div className="container"> 
+      <Card/>
 
-
+     </div>
 
 
 

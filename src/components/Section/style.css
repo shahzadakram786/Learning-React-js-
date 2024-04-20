@@ -9,16 +9,73 @@
 
 }
 
+.container{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2rem;
+    align-items: start;
+    gap: 2rem;
+}
+
+.card {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 25%;
+    transition: 0.4s ease;
+    
+  
 
 
+}
+
+.verified{
+    color: aqua;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey;
+}
 
 
+.card  * {
+    background-color: rgb(42, 45, 40);
+}
 
 
+.img_parent{
+    height: 40vh ;
+    border-radius: 20px 20px 0 0 ;
+    overflow: hidden;
+}
 
+.img_parent img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
 
+.text_parent{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+.text_parent h2{
+    font-size: 1.2vmax;
+}
+.text_child{
+    display: flex;
+    justify-content: space-between;
+}
 
-
+.text_child > div h3 {
+    font-size: 1vmax;
+    color: grey; 
+}
 
 /* below the commented code was for the google page */
 
