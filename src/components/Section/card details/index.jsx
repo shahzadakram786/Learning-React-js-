@@ -1,10 +1,17 @@
 import React from "react";
 import { VscVerifiedFilled } from "react-icons/vsc";
 
-function Details({ drops }) {
-  const { title, image, des1, price1, curr1, des2, price2, curr2, verified } =
-    drops;
-
+function Card_Structure({
+  title,
+  image,
+  des1,
+  price1,
+  curr1,
+  des2,
+  price2,
+  curr2,
+  verified,
+}) {
   return (
     <div className="card">
       <div className="img_parent">
@@ -37,4 +44,4 @@ function Details({ drops }) {
   );
 }
 
-export default Details;
+export default Card_Structure;
