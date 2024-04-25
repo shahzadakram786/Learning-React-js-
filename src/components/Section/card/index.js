@@ -32,7 +32,7 @@ const card = [
   },
   {
     id: 2,
-    title: "Maison Margiela MetaTABI",
+    title: "Maison Margiela MetaTABI...",
     image: img3,
     des1: "floor",
     price1: "0.35",
@@ -44,7 +44,7 @@ const card = [
   },
   {
     id: 3,
-    title: "Maison Margiela MetaTABI",
+    title: "Maison Margiela MetaTABI...",
     image: img4,
     des1: "floor",
     price1: "0.35",
@@ -56,7 +56,7 @@ const card = [
   },
   {
     id: 4,
-    title: "Maison Margiela MetaTABI",
+    title: "Maison Margiela MetaTABI...",
     image: img5,
     des1: "floor",
     price1: "0.35",

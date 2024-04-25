@@ -4,7 +4,7 @@ import CardCom from "../card details";
 function CardList({ drops, addCardToBuyList }) {
   return (
     <>
-      <div style={{ display: "flex", gap: "2rem", padding: "0 2rem" }}>
+      <div className="cardsContainer" style={{ display: "flex", gap: "2rem", padding: "0 2rem", }}>
         {drops.map((item, index) => {
           return (
             <CardCom

@@ -28,9 +28,11 @@ function Section() {
         </div>
         <div className="buy-cards">
           <div>
-            <h1 style={{ textAlign: "center" }}>Buy Cards</h1>
+            <h1 style={{ textAlign: "center", margin:"4rem",borderBottom:"2px solid white" , padding:"2rem", textShadow:"1px 1px 10px white" }}>Buy Cards</h1>
           </div>
-          <div className="list-buy-cards"></div>
+          <div className="list-buy-cards" style={{}}>
+            <h1 style={{color:"grey", textAlign:"center"}}>No Items no show </h1>
+          </div>
         </div>
       </div>
     </>
